@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context="com.mahao.objectanimtor.MainActivity">
 
     <TextView
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="left"
         android:id="@+id/txt_hello"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
@@ -23,5 +24,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_marginTop="10dp"
+        android:text="属性动画"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
